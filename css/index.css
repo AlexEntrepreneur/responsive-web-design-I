@@ -133,11 +133,12 @@ header {
 }
 
 .content-container, .header-content-container {
-	width: 1024px;
+	max-width: 1024px;
 	margin: 0 auto;
 }
 
 .header-content-container {
+  width: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -278,4 +279,19 @@ nav a {
 .copyright {
 	text-align: center;
 	margin: 40px 0;
+}
+
+@media screen and (max-width: 1064px) {
+  /* when screen width == content-container width */
+  .content-container, .header-content-container  {
+    max-width: calc(100% - 40px);
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 500px) {
+
 }
