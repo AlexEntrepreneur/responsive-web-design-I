@@ -357,6 +357,7 @@ nav a {
 
   .content-container {
     min-width: calc(100% - 40px);
+    padding-top: 40px;
   }
 
   .hero-section .main-title-container {
