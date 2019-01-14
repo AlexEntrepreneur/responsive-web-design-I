@@ -286,6 +286,10 @@ nav a {
   .content-container, .header-content-container  {
     max-width: calc(100% - 40px);
   }
+
+  .text-grid-container section {
+    padding-right: 40px;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -361,5 +365,9 @@ nav a {
 
   .text-grid-container {
     flex-direction: column;
+  }
+
+  .text-grid-container section {
+    padding-right: 0;
   }
 }
