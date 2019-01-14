@@ -305,6 +305,10 @@ nav a {
     min-width: 100%;
   }
 
+  nav a {
+    margin-right: 0;
+  }
+
   .hero-section {
     justify-content: center;
   }
@@ -315,5 +319,47 @@ nav a {
 }
 
 @media screen and (max-width: 500px) {
+  header {
+    position: relative;
+    height: auto;
+  }
+ .header-content-container  {
+    min-width: 100%;
+  }
 
+  nav {
+    flex-direction: column;
+  }
+
+  nav a {
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+  }
+
+  .header-content-container .logo-href {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 25px 0;
+    width: 100%;
+    border-bottom: 1px solid black;
+  }
+
+  .header-content-container .logo-href .logo {
+    flex-grow: 0;
+  }
+
+  .content-container {
+    min-width: calc(100% - 40px);
+  }
+
+  .hero-section .main-title-container {
+    width: 100%;
+  }
+
+  .text-grid-container {
+    flex-direction: column;
+  }
 }
