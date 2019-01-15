@@ -320,6 +320,10 @@ nav a {
   .hero-section .main-image-container {
     display: none;
   }
+
+	.hero-section .main-title-container {
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 500px) {
@@ -358,10 +362,6 @@ nav a {
   .content-container {
     min-width: calc(100% - 40px);
     padding-top: 40px;
-  }
-
-  .hero-section .main-title-container {
-    width: 100%;
   }
 
   .text-grid-container {
